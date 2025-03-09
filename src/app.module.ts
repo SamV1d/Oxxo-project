@@ -4,6 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { EmployeesModule } from './employees/employees.module';
 import { ProductsModule } from './products/products.module';
+import { ProvidersModule } from './providers/providers.module';
 
 
 @Module({
@@ -19,7 +20,7 @@ import { ProductsModule } from './products/products.module';
       autoLoadEntities: true,
       synchronize: true,
   }
-  ),EmployeesModule, ProductsModule],
+  ),EmployeesModule, ProductsModule, ProvidersModule],
   controllers: [AppController],
   providers: [AppService],
 })
