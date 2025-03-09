@@ -22,11 +22,6 @@ export class RegionsService {
 
   remove(id: number) {
     return "OK";
-    //hola
-    //adios
-    //pepe
-    //elias
-    //og
-    //valo
+  
   }
 }
