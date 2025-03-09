@@ -22,5 +22,6 @@ export class RegionsService {
 
   remove(id: number) {
     return "OK";
+    //hola
   }
 }
