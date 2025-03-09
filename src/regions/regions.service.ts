@@ -21,6 +21,6 @@ export class RegionsService {
   }
 
   remove(id: number) {
-    return `This action removes a #${id} region`;
+    return "OK";
   }
 }
